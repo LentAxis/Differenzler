@@ -1,0 +1,29 @@
+
+.bodybg{
+    -fx-background-image: url("Ressourcen/bg_holz.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.sidebg{
+    -fx-background-image: url("Ressourcen/SideBoard.png");
+    -fx-background-size: 100% 100%;
+}
+
+.tablebg{
+    -fx-background-image: url("Ressourcen/Carpet.png");
+    -fx-background-size: 100% 100%;
+    -fx-effect: dropshadow(gaussian, rgba(240, 240, 140, .65), 50, 0.01, 0, 0);
+}
+
+.split-pane-divider {
+   -fx-background-color: transparent;
+}
+
+.handCard{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, .4), 10, 0.5, 0, 0);
+}
+
+.handCard:hover{
+    -fx-translate-y: -5;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, .7), 10, 0.5, 0, 0);
+}

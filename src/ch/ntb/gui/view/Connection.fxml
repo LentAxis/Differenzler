@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #392E2E;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.ntb.controller.ConnectionController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3c1a1a" height="400.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <ImageView fx:id="iv_LobbyTitle" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="291.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@Ressourcen/Title.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_StartServer" layoutX="100.0" layoutY="121.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#startServer" prefHeight="40.0" prefWidth="200.0" text="Start Server" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_ConnectToServer" layoutX="100.0" layoutY="161.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#connectToServer" prefHeight="40.0" prefWidth="200.0" text="Connect to Server" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_NewGame" layoutX="100.0" layoutY="201.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#newGame" prefHeight="40.0" prefWidth="200.0" text="New Game" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7c7c7c" height="100.0" layoutX="80.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="240.0" AnchorPane.topAnchor="270.0" />
+      <TextFlow fx:id="tf_StartUpInfo" layoutX="83.0" layoutY="273.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="95.0" prefWidth="235.0" style="-fx-background-color: #3c1a1a;" textAlignment="CENTER" AnchorPane.leftAnchor="82.5" AnchorPane.topAnchor="272.5" />
+   </children>
+</AnchorPane>
